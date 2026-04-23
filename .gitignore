@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Generated data (too big for git)
+classifier_data/
+ml_pipeline/results/
+
+# Intermediate files
+*.log
+.DS_Store
+
+# FreeSurfer license (contains personal info)
+fs_license.txt
